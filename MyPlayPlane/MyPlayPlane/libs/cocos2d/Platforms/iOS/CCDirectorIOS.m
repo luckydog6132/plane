@@ -63,7 +63,7 @@
 #pragma mark -
 #pragma mark Director - global variables (optimization)
 
-CGFloat	__ccContentScaleFactor = 1;
+float	__ccContentScaleFactor = 1;
 
 #pragma mark -
 #pragma mark Director
@@ -274,7 +274,7 @@ CGFloat	__ccContentScaleFactor = 1;
 
 #pragma mark Director - Retina Display
 
--(CGFloat) contentScaleFactor
+-(float) contentScaleFactor
 {
 	return __ccContentScaleFactor;
 }
