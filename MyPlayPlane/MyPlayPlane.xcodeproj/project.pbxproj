@@ -19,16 +19,7 @@
 		787F567B17D46527000747A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787F567A17D46527000747A2 /* CoreGraphics.framework */; };
 		787F567D17D46527000747A2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787F567C17D46527000747A2 /* CoreText.framework */; };
 		787F567F17D46527000747A2 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787F567E17D46527000747A2 /* GameKit.framework */; };
-		787F568317D46527000747A2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 787F568217D46527000747A2 /* Default.png */; };
-		787F568517D46527000747A2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 787F568417D46527000747A2 /* Default@2x.png */; };
-		787F568717D46527000747A2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 787F568617D46527000747A2 /* Default-568h@2x.png */; };
-		787F568917D46527000747A2 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 787F568817D46527000747A2 /* Default-Landscape~ipad.png */; };
-		787F568B17D46527000747A2 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 787F568A17D46527000747A2 /* Icon-72.png */; };
-		787F568D17D46527000747A2 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 787F568C17D46527000747A2 /* Icon-Small-50.png */; };
-		787F568F17D46527000747A2 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 787F568E17D46527000747A2 /* Icon-Small.png */; };
-		787F569117D46527000747A2 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 787F569017D46527000747A2 /* Icon-Small@2x.png */; };
-		787F569317D46527000747A2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 787F569217D46527000747A2 /* Icon.png */; };
-		787F569517D46527000747A2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 787F569417D46527000747A2 /* Icon@2x.png */; };
+		787F568917D46527000747A2 /* resource.png in Resources */ = {isa = PBXBuildFile; fileRef = 787F568817D46527000747A2 /* resource.png */; };
 		787F569817D46527000747A2 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 787F569717D46527000747A2 /* iTunesArtwork */; };
 		787F569D17D46527000747A2 /* CCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F569C17D46527000747A2 /* CCAction.m */; };
 		787F56A017D46527000747A2 /* CCActionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 787F569F17D46527000747A2 /* CCActionCamera.m */; };
@@ -166,16 +157,7 @@
 		787F567A17D46527000747A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		787F567C17D46527000747A2 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		787F567E17D46527000747A2 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		787F568217D46527000747A2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
-		787F568417D46527000747A2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
-		787F568617D46527000747A2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
-		787F568817D46527000747A2 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "Resources/Default-Landscape~ipad.png"; sourceTree = "<group>"; };
-		787F568A17D46527000747A2 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
-		787F568C17D46527000747A2 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
-		787F568E17D46527000747A2 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Icon-Small.png"; sourceTree = "<group>"; };
-		787F569017D46527000747A2 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
-		787F569217D46527000747A2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
-		787F569417D46527000747A2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
+		787F568817D46527000747A2 /* resource.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = resource.png; path = Resources/resource.png; sourceTree = "<group>"; };
 		787F569617D46527000747A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		787F569717D46527000747A2 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Resources/iTunesArtwork; sourceTree = "<group>"; };
 		787F569B17D46527000747A2 /* CCAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCAction.h; path = libs/cocos2d/CCAction.h; sourceTree = "<group>"; };
@@ -539,16 +521,7 @@
 				787F582E17D47714000747A2 /* gameArts-hd.png */,
 				787F582F17D47714000747A2 /* gameArts.plist */,
 				787F583017D47715000747A2 /* gameArts.png */,
-				787F568217D46527000747A2 /* Default.png */,
-				787F568417D46527000747A2 /* Default@2x.png */,
-				787F568617D46527000747A2 /* Default-568h@2x.png */,
-				787F568817D46527000747A2 /* Default-Landscape~ipad.png */,
-				787F568A17D46527000747A2 /* Icon-72.png */,
-				787F568C17D46527000747A2 /* Icon-Small-50.png */,
-				787F568E17D46527000747A2 /* Icon-Small.png */,
-				787F569017D46527000747A2 /* Icon-Small@2x.png */,
-				787F569217D46527000747A2 /* Icon.png */,
-				787F569417D46527000747A2 /* Icon@2x.png */,
+				787F568817D46527000747A2 /* resource.png */,
 				787F569617D46527000747A2 /* Info.plist */,
 				787F569717D46527000747A2 /* iTunesArtwork */,
 			);
@@ -974,16 +947,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787F568317D46527000747A2 /* Default.png in Resources */,
-				787F568517D46527000747A2 /* Default@2x.png in Resources */,
-				787F568717D46527000747A2 /* Default-568h@2x.png in Resources */,
-				787F568917D46527000747A2 /* Default-Landscape~ipad.png in Resources */,
-				787F568B17D46527000747A2 /* Icon-72.png in Resources */,
-				787F568D17D46527000747A2 /* Icon-Small-50.png in Resources */,
-				787F568F17D46527000747A2 /* Icon-Small.png in Resources */,
-				787F569117D46527000747A2 /* Icon-Small@2x.png in Resources */,
-				787F569317D46527000747A2 /* Icon.png in Resources */,
-				787F569517D46527000747A2 /* Icon@2x.png in Resources */,
+				787F568917D46527000747A2 /* resource.png in Resources */,
 				787F569817D46527000747A2 /* iTunesArtwork in Resources */,
 				412CC7AA20E5FBEF00D91539 /* Images.xcassets in Resources */,
 				787F57F117D46529000747A2 /* ChangeLog in Resources */,
@@ -1179,7 +1143,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = L6ECB5JRB2;
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MyPlayPlane/Prefix.pch;
@@ -1210,7 +1174,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = L6ECB5JRB2;
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MyPlayPlane/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"MyPlayPlane/libs/kazmath/include\"";
